@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 80px 500px 80px;
+    height: 1000px;
+    gap: 10px 20px
+}
+
+Header{
+    background-color: rgb(214, 43, 71);
+}
+
+Aside{
+    background-color: rgb(6, 6, 77);
+}
+
+Main{
+    background-color: rgb(94, 6, 6);
+}
+
+Footer{
+    background-color: rgb(4, 63, 4)
+}
