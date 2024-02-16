@@ -1,0 +1,78 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+header{
+    border: 1px solid red;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+
+nav > ul{
+display: flex;
+list-style: none;
+/* width: 300px;
+justify-content: space-around;
+border: 1px solid blue; */
+
+}
+
+nav >ul >li{
+    margin: 0 15px;
+ 
+}
+nav > ul > li > .nav-link{
+    color: black;
+    font-size: 20px;
+}
+
+header > .logo-link{
+    color: navy;
+    font-size: 23px;
+}
+
+header > div > .btn-link {
+width: 100px;
+display: inline-block;
+border-radius: 8px;
+text-align: center;
+padding: 5px 0;
+color: black;
+box-shadow: 2px 3px 2px gray;
+margin-right: 20px;
+
+}
+
+header > div > :first-child{
+    background-color: skyblue
+}
+
+header > div > :last-child{
+    background-color: orange
+}
+
+main{
+    display: flex;
+}
+
+section{
+    width: 300px;
+    border: 1px solid green;
+}
+
+.sect-1{
+    flex-grow: 1
+}
+
+.sect-2{
+    flex-grow: 1 
+}
