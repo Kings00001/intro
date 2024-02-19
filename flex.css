@@ -1,0 +1,44 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #011627;
+    text-align: center;
+    color: beige;
+    padding: 20px 0;
+}
+
+h1{
+    font-size: 45px;
+}
+
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-style: none;
+
+}
+
+.btn1{
+    width: 370px;
+    height: 70px;
+    background-color: #4c555c;
+
+}
+
+.btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
