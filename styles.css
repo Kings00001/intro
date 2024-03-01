@@ -66,6 +66,16 @@ h1{
     height: 60px;
 }
 
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+.click:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
 .user-result{
     display: none;
     padding: 10px 30px;
@@ -88,11 +98,11 @@ h1{
 }
 
 @keyframes shake{
-    0% { transform: translatex(0);}
-    25% { transform: translatex(-5px);}
-    50% { transform: translatex(5px);}
-    75% { transform: translatex(-5px);}
-    100% { transform: translatex(0);}
+    0% { transform: translateX(0);}
+    25% { transform: translateX(-5px);}
+    50% { transform: translateX(5px);}
+    75% { transform: translateX(-5px);}
+    100% { transform: translateX(0);}
 
 }
 
