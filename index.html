@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  <header>
-       <a href="#" class="link logo-link">
-           <p class="Logo">NITRO</p>
-       </a>
-       <nav>
-           <ul>
-               <li><a href="#" class="link nav-link"></a>Home</li>
-               <li><a href="#" class="link nav-link"></a>About</li>
-               <li><a href="#" class="link nav-link"></a>Contact</li>
-           </ul>
-       </nav>
-       <div>
-           <a href="#" class="link btn-link">Login</a>
-           <a href="#" class="link btn-link">Signup</a>
-       </div>
-  </header>  
 
-  <main>
-      <section class="sect-1">1</section>
-      <section class="sect-2">2</section>
-      <section class="sect-3">3</section>
-  </main>
+<body>
+
+    <form class="user-answer" id="form-user">
+        <h1>Palindrome Game</h1>
+        <div class="user-answer-container">
+            <label for="user-input">Enter Your Word : </label>
+            <input type="text" id="user-input">
+            <button class="submit-btn" id="btn" onclick="wrongAnswer()" >Submit</button>
+        </div>
+        <p class="user-result" id="result "></p>
+        <button class="click" onclick="return restForm();" >Reset</button>
+    </form>
+    <script src="./main.js"></script>
 </body>
+
 </html>
